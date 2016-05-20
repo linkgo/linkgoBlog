@@ -6,7 +6,7 @@
 title: Linkgo.io Blog
 subtitle:
 description:
-author: John Doe
+author: Roybein
 language:
 timezone:
 
@@ -15,7 +15,7 @@ timezone:
 url: http://yoursite.com
 root: /blog/
 permalink: :year/:month/:day/:title/
-permalink_defaults:
+permalink_defaults: archives/
 
 # Directory
 source_dir: source
@@ -63,8 +63,10 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: bootstrap-blog
-theme: landscape
+theme: bootstrap-blog
+# theme: landscape
+# theme: hueman
+# theme: huxblog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
