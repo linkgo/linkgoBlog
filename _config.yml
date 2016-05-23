@@ -12,10 +12,11 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost:3000
+url: http://linkgo.io
 root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults: archives/
+image_server_url: http://o7m387gr6.bkt.clouddn.com/
 
 # Directory
 source_dir: source
@@ -65,6 +66,7 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+
 ## Themes: https://hexo.io/themes/
 theme: bootstrap-blog
 # theme: landscape
